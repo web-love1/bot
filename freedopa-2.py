@@ -70,5 +70,5 @@ async def get_election_info(ctx, cid: str = None):
             except Exception as e:
                 await ctx.send(f"❗ เกิดข้อผิดพลาดในการเชื่อมต่อ: `{str(e)}`")
 
-# 3. รันบอท
+# 3. รันบอ
 bot.run('MTQ5MDMyMzg0Nzk5ODYwNzU3Mg.GExQrr.t9uPziDtURrAgjv0PFLcU-bKFJHJljVQKTVGSo')
